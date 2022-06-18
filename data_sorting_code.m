@@ -28,9 +28,3 @@ plot(O(:,1), O(:,2))
 ylabel('Air temperature (K)'); xlabel ('Number of days');
 legend('NASA data', 'ANN prediction','Location','best');
 %%
-%Data visuals
-plot(T(:,1), T(:,6))
-hold on
-plot(O(:,1), O(:,6))
-ylabel('Air temperature (K)'); xlabel ('Number of days');
-legend('NASA data', 'ANN prediction','Location','best');
